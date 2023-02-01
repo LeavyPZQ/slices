@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  }
+
+  .cmsn {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.fbp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 5   0%;
+    background-color: #282828;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.frmio {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.frmio div{
+
+}
+
+a {
+    text-decoration: none;
+    color: #282828;
+}
+
+
+.fp {
+    text-decoration: none;
+    color: #e73c7e;
+}
+
+
+
+.container{
+    display: grid;
+    place-items: center;
+}
+.container div {
+    margin-bottom: 15px;
+
+}
+.container input {
+
+}
+
+
+.chbox {
+    margin-top: 10px;
+    background-color: #343434;
+    padding: 10px;
+    border-radius: 10px;
+} 
+.chbox button {
+    padding: 9px 14px;   
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+
+.cancelbtn {
+    position: fixed;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    top: 10px;
+    right: 10px;
+}
+
+.lnin {
+    background-color: #454545;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.sub {
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: #454545;
+    color: white;
+}
+
+.sub:hover {
+    background-color: #e73c7e;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

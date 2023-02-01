@@ -36,6 +36,20 @@ body {
     margin-bottom: 0.5em;
 }
 
+
+.secnd {
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  transition: ease-in-out 200ms;
+} 
+
+.secnd:hover {
+  color: #c90470;
+  transform: scale(1.05);
+  transition: ease-in-out 200ms;
+}
+
 .enterbutton {
     display: flex;
     justify-content: center;
