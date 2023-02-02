@@ -1,8 +1,6 @@
-var attempt = 3; // Variable to count number of attempts.
-// Below function Executes on click of login button.
+var attempt = 3;
 
-
-function validate(){
+async function validate(){
     
     var usrn = document.getElementById("username").value;
     var pswd = document.getElementById("password").value;
@@ -21,7 +19,8 @@ function validate(){
 
         for (let i = 0; i < userObj.length; i++) {
             if(usrn == userObj[i].usrn && pswd == userObj[i].pswd){
-                alert ("Login successfully");
+                load();
+                await sleep(1000);
                 window.location = "main.html"; // Redirecting to other page.
                 return false;
             }
@@ -35,3 +34,6 @@ function validate(){
         }
         attempt--;
 }
+
+
+
