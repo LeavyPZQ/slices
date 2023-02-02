@@ -1,0 +1,56 @@
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: var(--font);
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    color: var(--white);
+    background-color: var(--l-violet);
+    border: none;
+    border-radius: 40px;
+    padding: 15px 25px;
+    font-size: 3em;
+    position: absolute;
+    bottom: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    transition: ease-in 200ms;
+
+}
+
+button:hover {
+    background-color: var(--violet);
+    transform: scale(1.1);
+    transition: ease-out 200ms;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6em;
+}
+
+p {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}

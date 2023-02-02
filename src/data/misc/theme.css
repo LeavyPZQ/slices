@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+:root {
+    --font:'Ubuntu', sans-serif;
+
+    --white:#F9F9F9;
+    --l-white:#F9F9F980;
+    --black:#1A1A1A;
+    --l-black:#1A1A1A80;
+    --pink:#E91E63;
+    --pinkish:#C2185B;
+    --violet:#9c27b0;
+    --l-violet:#9c27b080;
+    --purple:#5727b0;
+    --o-blue:#272ab0;
+    --blue:#276bb0;
+    --light:#57acdc;
+    --silico:#57dcbe;
+    --l-silico:#57dcbe80;
+    --mocha:#60c689;
+}

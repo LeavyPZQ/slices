@@ -26,9 +26,7 @@ body {
     width: 40%;
     padding: 5% 0%;
     border-radius: 23px;
-    background: linear-gradient(145deg, #101010, #131313);
-    box-shadow:  15px 15px 30px #0f0f0f,
-                 -15px -15px 30px #151515;
+
  }
 
 .logo {
@@ -46,13 +44,13 @@ body {
   width: 100%;
   text-align: center;
   color: aliceblue;
-  transition: ease-in-out 200ms;
+  transition: ease-in 200ms;
 } 
 
 .secnd:hover {
   color: #c90470;
   transform: scale(1.05);
-  transition: ease-in-out 200ms;
+  transition: ease-out 200ms;
 }
 
 .enterbutton {
