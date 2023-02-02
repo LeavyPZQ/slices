@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
   }
 
 body {
@@ -15,11 +16,15 @@ body {
     background-color: #121212;
     font-family: 'Ubuntu', sans-serif;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    height: 100%;
+    width: 100%;
 }
 
  #wrapper {
-    padding: 20vh 20vh;
+    height: 40%;
+    width: 40%;
+    padding: 5% 0%;
     border-radius: 23px;
     background: linear-gradient(145deg, #101010, #131313);
     box-shadow:  15px 15px 30px #0f0f0f,

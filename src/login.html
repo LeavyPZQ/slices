@@ -5,12 +5,8 @@
 <!-- Include CSS File Here -->
 <link rel="stylesheet" href="data/login.css"/>
 <!-- Include JS File Here -->
-<<<<<<< HEAD
-
-=======
 <script src="data/login.js"></script>
 <script src="data/load.js"></script>
->>>>>>> 52028d2bf66c1179d6c5618a17477305273a1a9b
 </head>
 <body>
     <div class="lds-ring" id="loader">
@@ -19,6 +15,7 @@
         <div></div>
         <div></div>
     </div>
+    
     <div class="container">
         <div class="fbp">
             <div class="btnwrap" id="pDis">
@@ -44,10 +41,10 @@
                     <div class="container">
                         <div class="chbox">
                             <input type="button" value="Login" id="submit" class="sub" onclick="validate()"/>
-                        </div>
                             <span class="psw">Forgot 
                                 <a href="#" class="fp">password?</a>
                             </span>
+                        </div>
                       </div>
                     </div>
         
@@ -61,24 +58,25 @@
                 <form action="" method="post" class="frmio">
                     <div class="container">
                     <div>
-                        <h1>Welcome back!</h1>
+                        <h1>Hey your New?</h1>
                     </div>
-                    <div>
+                    <div class="UiIn">
                         <label for="uname"><b>Username</b></label>
                         <input type="text" placeholder="Enter Username" class="lnin" id="username" required>
                     </div>
-                    <div>
+                    <div class="UiIn">
                         <label for="psw"><b>Password</b></label>
                         <input type="password" placeholder="Enter Password" class="lnin" id="password" required>
                     </div>
-                    <div>
+                    <div class="UiIn">
                         <label for="psw"><b>Confirm Password</b></label>
-                        <input type="password" placeholder="Enter Password" class="lnin" id="password" required>
+                        <input type="password" placeholder="Enter Password" class="lnin" id="passwordv" required>
                     </div>
                     <div class="container">
                         <div class="chbox">
-                            <input type="button" value="Login" id="submit" class="sub" onclick="validate()"/>
-                            <span class="psw">Forgot 
+                            <input type="button" value="Login" id="submitR" class="sub" onclick="validateReg()"/>
+                            <span class="psw">
+                                Forgot 
                                 <a href="#" class="fp">password?</a>
                             </span>
                         </div>
