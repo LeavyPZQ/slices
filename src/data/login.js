@@ -1,6 +1,26 @@
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
+document.getElementById("pDis").style.display = "flex";
+document.getElementById("rDis").style.display = "none";
+document.getElementById("lDis").style.display = "none";
 
+
+
+
+function regin(){
+    document.getElementById("rDis").style.display = "flex";
+    document.getElementById("pDis").style.display = "none";
+    document.getElementById("lDis").style.display = "none";
+    
+}
+
+function login(){
+    document.getElementById("lDis").style.display = "flex";
+    document.getElementById("pDis").style.display = "none";
+    document.getElementById("rDis").style.display = "none";
+    console.log("Enterd Login");
+
+}
 
 function validate(){
     
