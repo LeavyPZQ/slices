@@ -16,12 +16,16 @@ async function validate(){
         }
     ]
 
+        var loged = false;
 
         for (let i = 0; i < userObj.length; i++) {
             if(usrn == userObj[i].usrn && pswd == userObj[i].pswd){
                 load();
                 await sleep(1000);
                 window.location = "main.html"; // Redirecting to other page.
+                loged = true;
+                var url = "main.html?loged=" + encodeURIComponent(loged);
+                window.location.href = url;
                 return false;
             }
         }
@@ -34,6 +38,5 @@ async function validate(){
         }
         attempt--;
 }
-
 
 
