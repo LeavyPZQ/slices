@@ -23,6 +23,9 @@ function login(){
 }
 
 function validate(){
+var attempt = 3;
+
+async function validate(){
     
     var usrn = document.getElementById("username").value;
     var pswd = document.getElementById("password").value;
@@ -38,11 +41,16 @@ function validate(){
         }
     ]
 
+        var loged = false;
 
         for (let i = 0; i < userObj.length; i++) {
             if(usrn == userObj[i].usrn && pswd == userObj[i].pswd){
-                alert ("Login successfully");
+                load();
+                await sleep(1000);
                 window.location = "main.html"; // Redirecting to other page.
+                loged = true;
+                var url = "main.html?loged=" + encodeURIComponent(loged);
+                window.location.href = url;
                 return false;
             }
         }
@@ -55,3 +63,6 @@ function validate(){
         }
         attempt--;
 }
+
+
+

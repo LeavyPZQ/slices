@@ -19,6 +19,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   box-sizing: border-box;
 }
 
+
 a {
   text-decoration: none;
   color: #222;
@@ -31,6 +32,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #121212;
 }
 
 .sr-only {
@@ -84,7 +86,7 @@ body {
   
   .site-header {
     position: relative;
-    background-color: #def7ff; }
+    background-color: #c90470; }
   
   .site-header__wrapper {
     display: flex;
@@ -134,3 +136,24 @@ body {
         right: 1rem;
         top: 1rem; } }
   
+
+  .profilebtn {
+    display: none;
+    margin-right: 20px;
+    background-color: #222;
+    color: #c90470;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: ease-in-out 100ms;
+  }
+
+  .profilebtn:hover {
+    display: none;
+    margin-right: 20px;
+    background-color: #222;
+    color: #c90470;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transform: scale(1.2);
+    transition: ease-in-out 100ms;
+  }
