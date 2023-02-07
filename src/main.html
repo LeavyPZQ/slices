@@ -6,10 +6,11 @@
         <link rel="stylesheet" type="text/css" href="data/misc/theme.css">
     </head>
     
-    <body>
+    <body class="white" id="body">
         <script src="data/main.js"></script>
+        <script src="data/util.js"></script>
         <!-- Header Start -->
-        <header class="site-header">
+        <header class="site-header" id="header">
             <div class="wrapper site-header__wrapper">
             <div class="site-header__start">
                 <a href="index.html" class="brand"><img src="https://i.ibb.co/fSQpfs1/logofiting-dark.png" alt="logofiting-dark" height="60px"></a>
@@ -37,7 +38,7 @@
         <span id="status"></span>
 
         <label class="switch" id="theme">
-            <input type="checkbox">
+            <input type="checkbox" onclick="switchTheme()">
             <span class="slider"></span>
         </label>
 

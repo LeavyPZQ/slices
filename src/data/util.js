@@ -10,3 +10,16 @@ async function previous() {
     window.history.go(-1);
     window.location.href = "main.html"
 }
+
+function switchTheme() {
+    console.log('allo');
+    const body = document.getElementById("body");
+    const header = document.getElementById("header")
+    if(body.classList.contains("white")) {
+        body.className = "dark";
+        header.style.backgroundColor = "var(--silico)"
+    } else {
+        body.className = "white";
+        header.style.backgroundColor = "var(--l-silico)"
+    }
+}
